@@ -24,7 +24,7 @@ function caesarCipher(s, k) {
                 let difference = ((item.charCodeAt()-96)+k) % ('z'.charCodeAt()-96)
                 answerCharacter = difference === 0 ? 'z'.charCodeAt(): difference + 'a'.charCodeAt()-1
             } else if(item.charCodeAt() + k > 'Z'.charCodeAt() && /[A-Z]/.test(item)){
-                let difference =  ((item.charCodeAt()-64)+k) % ('Z'.charCodeAt()-64)
+                let difference =  ((item.charCodeAt()-64) + k) % ('Z'.charCodeAt()-64)
                 answerCharacter =  difference === 0 ? 'Z'.charCodeAt(): difference  + 'A'.charCodeAt()-1
             }
             return  answerCharacter === 0 ? String.fromCharCode(item.charCodeAt() + k): String.fromCharCode(answerCharacter); 
