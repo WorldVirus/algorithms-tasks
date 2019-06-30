@@ -9,7 +9,6 @@ class LinkedList{
         newNode.next = this.head;
         this.head = newNode;
         ++this.sizeList;
-        return;
     }
 
     removeFromHead(){
@@ -22,7 +21,7 @@ class LinkedList{
     }
 
     addToIndexPosition(value,index){
-        if(index > this.sizeList)
+        if(index > this.sizeList || index < 0)
             return 'Incorrect index';
 
         if(!index){
@@ -50,7 +49,7 @@ class LinkedList{
 
 
     removeFromIndexPosition(index){
-        if(index > this.sizeList )
+        if(index > this.sizeList   || index < 0)
             return 'Incorrect index';
 
         if(!index){
