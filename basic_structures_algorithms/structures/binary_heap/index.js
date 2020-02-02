@@ -2,7 +2,7 @@ let arr = [21, 12, 32, 14, 78, 9];
 
 class BinaryHeap {
     constructor() {
-        this.data = [21, 12, 32, 14, 78, 9];
+        this.data = [];
         this.size = 7;
     }
 
