@@ -1,4 +1,4 @@
-/** LINK: https://leetcode.com/problems/target-sum/
+/** LINK: https://leetcode.com/problems/middle-of-the-linked-list/
  *
  *  EXAMPLES:
  *  Input: head = [1,2,3,4,5]
