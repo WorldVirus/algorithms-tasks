@@ -4,7 +4,6 @@
  *  Input: [1,2]
  *  Output: [1,null,2]
  */
-
 function invertTree (root) {
     function inverter(root){
        if(!root){return null;}
