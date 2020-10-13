@@ -21,7 +21,7 @@ function singleNumber (nums) {
 // beautiful solution a^a=0; b^0=b; a^b^a=b;
 //     let answer = 0;
 //     for (let i = 0; i < nums.length; ++i) {
-//       answer ^= i;
+//       answer ^= nums[i];
 //     }
 //     return answer;
 //   }

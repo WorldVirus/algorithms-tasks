@@ -5,7 +5,6 @@
  *  Input: s1 = "ab" s2 = "eidbaooo"
  *  Output: "True"
  */
-
 function checkInclusion (s1, s2) {
     if(s1.length > s2.length){return false;}
     
