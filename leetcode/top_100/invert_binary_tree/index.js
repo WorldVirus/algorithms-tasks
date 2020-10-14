@@ -1,4 +1,4 @@
-/** LINK: https://leetcode.com/problems/invert-binary-tree/
+/** LINK: 
  *
  *  EXAMPLES:
  *  Input: [1,2]

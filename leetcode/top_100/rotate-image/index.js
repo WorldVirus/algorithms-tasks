@@ -1,4 +1,4 @@
-/** LINK: https://leetcode.com/problems/word-break
+/** LINK: https://leetcode.com/problems/rotate-image/
  * 
  *  EXAMPLES:
  *  Input: matrix = [[7,4,1],[8,5,2],[9,6,3]]
