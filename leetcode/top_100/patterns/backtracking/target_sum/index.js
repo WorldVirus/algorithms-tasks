@@ -5,27 +5,27 @@
  *  Output: 5
  */
 
-function countElements (arr, S) {
+function countElements (nums, S) {
     
     // brute-force
-    // let answer = 0; 
-    // function calcVars(index,curVal){
-    //     if(index === nums.length && curVal === S){
-    //         ++answer;
-    //         return ;
-    //     }
+    let answer = 0; 
+    function calcVars(index,curVal){
+        if(index === nums.length && curVal === S){
+            ++answer;
+            return ;
+        }
         
-    //     if(index === nums.length){
-    //         return;
-    //     }
+        if(index === nums.length){
+            return;
+        }
         
-    //     calcVars(index +1, curVal-nums[index]);
-    //     calcVars(index +1, curVal + nums[index]);
-    // }
+        calcVars(index +1, curVal-nums[index]);
+        calcVars(index +1, curVal + nums[index]);
+    }
     
-    // calcVars( 0, 0);
+    calcVars( 0, 0);
 
-    // return answer;
+    return answer;
 };
 
 console.log(countElements([1,1,1,1,1],3));

@@ -16,4 +16,4 @@ function flowers(flowerbed, n){
     return counterPlace >= n;
 }
 
-console.log(flowers([1,0,0,0,1],2));
+console.log(flowers([1,0,0,0,1],1)); // true
