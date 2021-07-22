@@ -3,6 +3,7 @@
  *  EXAMPLES:
  *  Input: [2,7,9,3,1]
  *  Output: 12
+ * Description : https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
  */
 
 function rob(nums) {
