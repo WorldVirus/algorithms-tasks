@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/longest-repeating-character-replacement/ (not submited - inspired by https://leetcode.com/problems/longest-repeating-character-replacement/discuss/91271/Java-12-lines-O(n)-sliding-window-solution-with-explanation)
+// https://leetcode.com/problems/longest-repeating-character-replacement/ (inspired by https://leetcode.com/problems/longest-repeating-character-replacement/discuss/91271/Java-12-lines-O(n)-sliding-window-solution-with-explanation)
 package longest_repeating_character_replacement
 
 func characterReplacement(s string, k int) int {
