@@ -12,7 +12,7 @@ var lengthOfLongestSubstringTwoDistinct = function(s) {
 
     for(let end = 0; end < s.length; ++end){
 		if(!checker[s[end]]){
-		checker[s[end]] = 0;
+		    checker[s[end]] = 0;
         }
         ++checker[s[end]];
         let vals = Object.values(checker);

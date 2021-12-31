@@ -10,15 +10,7 @@ func minMeetingRooms(intervals [][]int) int {
 	h := map[int]int{}
 
 	for _, v := range intervals {
-		if _, ok := h[v[0]]; !ok {
-			h[v[0]] = 0
-		}
 		h[v[0]] += 1
-
-		if _, ok := h[v[1]]; !ok {
-			h[v[1]] = 0
-		}
-
 		h[v[1]] -= 1
 	}
 

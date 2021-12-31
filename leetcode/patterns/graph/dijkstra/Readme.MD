@@ -1,5 +1,6 @@
 Shortest path from one node to all nodes 
 
+[GO Realization of Dijkstra](https://dev.to/douglasmakey/implementation-of-dijkstra-using-heap-in-go-6e3)
 Pseudo-Code:
 
     for each vertex V in G
@@ -18,8 +19,8 @@ Pseudo-Code:
 
     return distance[], previous[]
 
-Time: O(E Log V)
+Time: O(E + V Log V) if using heap if dont use it will be O(E + V^2)
 
-Space: O(V)
+Space: O(V + E)
 
 [Watch the video of Michael Sambol](https://www.youtube.com/watch?v=_lHSawdgXpI)

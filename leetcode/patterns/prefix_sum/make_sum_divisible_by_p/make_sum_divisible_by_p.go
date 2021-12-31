@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/make-sum-divisible-by-p/
 // NOT SUBMITED
 // INSPIRED BY: https://leetcode.com/problems/make-sum-divisible-by-p/discuss/859173/DETAILED-EXPLANATION-OF-MATH-BEHIND-O(N)-SOLUTION
+package make_sum_divisible_by_p
+
 func minSubarray(nums []int, p int) int {
 	var sum int
 	for i := 0; i < len(nums); i += 1 {

@@ -6,13 +6,10 @@ type MyCalendarTwo struct {
 }
 
 func Constructor() MyCalendarTwo {
-	a := [][]int{}
-	h := map[int]int{}
-	k := []int{}
 	return MyCalendarTwo{
-		arr:  a,
-		h:    h,
-		keys: k,
+		arr:  make([][]int, 0),
+		h:    make(map[int]int),
+		keys: make([]int, 0),
 	}
 }
 

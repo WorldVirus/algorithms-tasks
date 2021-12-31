@@ -27,6 +27,7 @@ function majorityElement(nums) {
     /**
      * Boyer-Moore Voting Algorithm if answer strictly >n/2
      */
+    // Description of algo: https://www.youtube.com/watch?v=gY-I8uQrCkk
     // function majorityElement(nums) {
     //     let count = 0;
     //     let answer = 0;

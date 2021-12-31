@@ -1,5 +1,4 @@
-/** LINK: https://leetcode.com/problems/merge-intervals/submissions/
- *
+/** LINK: https://leetcode.com/problems/merge-intervals/
  *  EXAMPLES:
  *  Input: intervals = [[15,18],[6,10],[1,3],[4,7]]
  *  Output: [[1,3],[4,10],[15,18]]

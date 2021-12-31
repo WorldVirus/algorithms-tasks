@@ -11,6 +11,7 @@ func checkSubarraySum(nums []int, k int) bool {
 		sum %= k
 
 		if val, ok := h[sum]; ok {
+			// because at least two elements
 			if i-val > 1 {
 				return true
 			}

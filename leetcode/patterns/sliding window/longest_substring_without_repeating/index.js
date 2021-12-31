@@ -5,7 +5,7 @@
  *  Output:  3
  */
 
-function reverseLinkedList(s) {
+function lengthOfLongestSubstring(s) {
 
     let chekcer = {};
     let answer = 0, i = 0, j = 0;
